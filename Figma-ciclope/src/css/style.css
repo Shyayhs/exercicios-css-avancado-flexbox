@@ -1,0 +1,94 @@
+    body {
+    background: url(../img/bg-desktop\ 1.png) no-repeat #000000;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    flex-direction: column;
+    background-position-y: 24px;
+    color: #FFFFFF;
+    font-family: 'Oxanium', cursive;
+}
+
+header {
+    align-self: center;
+    max-width: 100%;
+}
+
+.logo {
+    padding-top: 18px;
+    text-align: center;
+    max-width: 100%;
+}
+
+.logo-imagem {
+    width: 296px;
+    height: 152px;
+}
+
+main {
+    display: flex;
+    gap: 60px;
+    padding: 30px 0 0 120px;
+    max-width: 100%;
+}
+
+.selecao {
+    width: 585px;
+    height: 440px;
+}
+
+.titulo-selecao {
+    text-align: center;
+    line-height: 25px;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 6px;
+    border-bottom: 2px solid #47F4FF;
+}
+
+.menu-imagens-personagens {
+    width: 585px;
+    height: 405px;
+    margin-top: 25px;
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.imagem-personagem {
+    border-bottom: 4px solid #47F4FF;
+    width: 123px;
+    height: 190px;
+}
+
+.personagem-selecionado {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.personagem-grande {
+    width: 429px;
+}
+
+.informacoes-personagem {
+    width: 483px;
+}
+
+.nome-personagem {
+    border-bottom: 2px solid #47F4FF;
+    text-align: center;
+    line-height: 25px;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 6px;
+}
+
+.descricao-personagem {
+    margin: 20px 30px;
+    text-align: center;
+    line-height: 20px;
+    font-weight: 400;
+    font-size: 16px;
+}

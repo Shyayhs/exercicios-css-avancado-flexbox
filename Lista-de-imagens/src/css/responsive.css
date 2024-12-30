@@ -1,0 +1,23 @@
+@media (max-width:1360px) {
+    .galeria {
+        max-width: 1200px;
+    }
+}
+
+@media (max-width:1030px) {
+    .galeria {
+        max-width: 900px;
+    }
+}
+
+@media(max-width:690px) {
+    .galeria {
+        padding: 45px 0;
+        height: auto;
+        max-width: 669px;
+    }
+
+    .descricao {
+        bottom: 20px;
+    }
+}

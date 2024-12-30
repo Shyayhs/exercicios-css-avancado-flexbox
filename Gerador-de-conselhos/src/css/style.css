@@ -1,0 +1,82 @@
+:root {
+    --cor-especial: hsl(150, 100%, 66%);
+}
+
+body {
+    background-color: hsl(218, 23%, 16%);
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(193, 38%, 86%);
+}
+
+.cartao {
+    width: 330px;
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+    padding: 50px 20px 0;
+}
+
+.titulo {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: var(--cor-especial);
+    letter-spacing: 3px;
+}
+
+.conselho {
+    font-size: 20px;
+}
+
+.separador {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.linha {
+    width: 45%;
+    border: 0.5px solid hsla(0, 0%, 65%, 0.3);
+    height: 0;
+}
+
+.barras-separador {
+    display: flex;
+    gap: 5px;
+}
+
+.barra {
+    border-radius: 8px;
+    background-color: hsl(193, 38%, 86%);
+    height: 13px;
+    width: 5px;
+}
+
+.botao {
+    flex: 0 1 50px;
+    background-color: var(--cor-especial);
+    width: 60px;
+    min-height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+    transform: translateY(50%);
+}
+
+.botao:hover {
+    color: #1b1b1bd7;
+    box-shadow: 0 5px 15px hsl(150, 100%, 66%);
+}
+
+.fas.fa-dice-five {
+    font-size: 23px;
+}

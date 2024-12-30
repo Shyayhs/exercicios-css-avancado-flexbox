@@ -1,0 +1,38 @@
+@media(max-width:870px) {
+    .cabecalho {
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        height: 100%;
+        width: 100vw;
+    }
+
+    .titulo-logo {
+        font-size: 40px;
+    }
+
+    .lista-menu {
+        flex-direction: column;
+        min-width: 255px;
+        height: fit-content;
+        gap: 16px;
+        padding: 48px 45px 65px;
+    }
+
+    .item-menu {
+        height: 80px;
+        width: 100%;
+        font-size: 40px;
+    }
+
+    .item-menu.cadastro {
+        width: 160px;
+        height: 55px;
+        font-size: 40px;
+        margin-left: 0;
+    }
+
+    .botao-cadastro {
+        font-size: 18px;
+    }
+}
